@@ -1,0 +1,42 @@
+kmit.in has address 206.54.190.30
+
+
+Starting Nmap 7.93 ( https://nmap.org ) at 2023-04-06 14:21 IST
+Nmap scan report for cpanel9.c.fozzy.com (206.54.190.30)
+Host is up (0.0081s latency).
+Not shown: 976 filtered tcp ports (no-response)
+PORT      STATE  SERVICE
+21/tcp    open   ftp
+22/tcp    open   ssh
+80/tcp    open   http
+110/tcp   open   pop3
+143/tcp   open   imap
+443/tcp   open   https
+465/tcp   open   smtps
+587/tcp   open   submission
+993/tcp   open   imaps
+995/tcp   open   pop3s
+32777/tcp closed sometimes-rpc17
+32783/tcp closed unknown
+34571/tcp closed unknown
+34572/tcp closed unknown
+38292/tcp closed landesk-cba
+45100/tcp closed unknown
+49152/tcp closed unknown
+49155/tcp closed unknown
+49158/tcp closed unknown
+50001/tcp closed unknown
+50002/tcp closed iiimsf
+54328/tcp closed unknown
+55055/tcp closed unknown
+56738/tcp closed unknown
+Device type: bridge
+Running (JUST GUESSING): Oracle Virtualbox (88%)
+OS CPE: cpe:/o:oracle:virtualbox
+Aggressive OS guesses: Oracle Virtualbox (88%)
+No exact OS matches for host (test conditions non-ideal).
+
+OS detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 93.74 seconds
+
+
